@@ -26,7 +26,9 @@ QQ交流群号：
 - 前端CLI开发框架基于Vue Cli，版本：@vue/cli 4.1.2
 - 前端web呈现基于Boostrap V4.x，采用BootstrapVue插件，中文官网http://code.z01.com/bootstrap-vue
 - icon图标库基于国产zico图标库，官网http://ico.z01.com
-- 
+- map地图组件基于vue-baidu-map
+- 支持chrome和现代化浏览器，兼容IE11与EDGE浏览器
+- 完美支持微信与小程序接入与二次开发
 
 ## 使用说明
 1、先安装Vue CLI，安装方法：
@@ -59,13 +61,28 @@ npm run build
 yarn build
 ```
 
-### Lints and fixes files
+6、整理和修复文件
 ```
+npm i line
+# or
 yarn lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## 排错表
+
+**运行时报错：Cannot find module 'webpack/lib/RequestShortener'**
+这可能是本地webpack版本问题，建议你执行下面命令纠正它，然后再次运行`npm run serve`：
+```npm install webpack --save-dev```
+
+**提示'vue-baidu-map in ./src/main.js'错误，执行安装百度地图组件**
+```npm install --save vue-baidu-map```
+>安装地图组件时如果出错，请将根目录的`package-lock.json`删除再执行安装，安装完成再恢复`package-lock.json`文件，即可。
+
+**其它几个组件安装方法**
+```
+npm install zico
+npm install vue bootstrap-vue bootstrap
+```
 
 # 系统运行效果图
 ![系统效果图1](发布运行效果图/01.jpg)
