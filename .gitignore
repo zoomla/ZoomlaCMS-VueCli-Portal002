@@ -102,3 +102,6 @@ dist
 
 # TernJS port file
 .tern-port
+
+# ignore this file
+git自动更新与提交.ps1

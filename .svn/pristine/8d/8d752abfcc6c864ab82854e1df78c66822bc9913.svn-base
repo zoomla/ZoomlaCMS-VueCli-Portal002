@@ -92,7 +92,7 @@ npm run build
 yarn build
 ```
 
-6、整理修复与优化
+6、整理和修复文件
 ```
 npm i line
 # or
