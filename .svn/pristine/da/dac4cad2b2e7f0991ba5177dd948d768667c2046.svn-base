@@ -1,0 +1,7 @@
+<template>
+<div class="haizi">
+<b-container fluid="xl">    
+子女抚养 ipsum dolor sit, amet consectetur adipisicing elit. Est, animi saepe exercitationem minus at cupiditate quo libero dolor ad. Dolorem optio dignissimos ut esse doloribus, placeat ex! Suscipit, corporis sed?
+</b-container>
+</div>
+</template>    

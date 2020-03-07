@@ -1,0 +1,157 @@
+//CSS预编译文件基于Sass语法
+//这是Zoomla!逐浪CMS团队优化的Sass模板，我们为你预置了逐浪字库官方团队的高品质webFont之CDN库，你可完全采用中文定义写作，如下面写法都是合格
+//$中国变量之一:12px;
+//$中国人民中华人民共和国变量之二:#ff0;
+//.a1{width:$中国变量之一 ;}
+//.a2{background: $中国人民中华人民共和国变量之二;}
+//建议CSS注释写在代码段的起始处以使阅读更加流畅
+
+/* 全局样式定义 Powered by Zoomla!逐浪CMS z01.com*/
+@charset "utf-8";
+@import "zoomlaCMS";
+// @import url("https://code.z01.com/Zfonts.css");
+
+.inav{
+.navbar-brand img{width: 20rem;height: 6rem;}
+input{width: 12rem;height: 2.84rem;}
+button{border: none;}
+.nav-item{
+	.nav-link{color: #333333;}
+	.nav-link:hover{color: #FF6533;}
+	}
+}
+
+
+
+body{background: #F6F6F6;}
+
+
+.home{
+
+}
+
+// 首页banner
+.ibanner{height:30.6rem;background: url(./assets/images/ibanner.jpg) top center no-repeat; background-size: cover;}
+
+.ibanner_box{margin-top: 4.8rem; background: #EC6941;  border: 1.02rem solid rgba(148, 105, 105, 0.47);text-align: center;color: #fff;font-size: 1.4rem;
+ul{@include myul;}
+li{padding: 0.8rem 2rem;line-height: 2.3rem;
+	span{color: #E8EA15;}
+	&:nth-child(2){background: #c44518;}
+	&:nth-child(3){border-bottom: 1px solid #fff;}
+	i:nth-child(2),i:nth-child(3){margin-left: 1.2rem;}
+	}
+}
+
+// 首页推荐区
+.ielit{margin-top: 2.2rem; text-align: center;
+h1{color: #f00;font-size: 1.5rem;font-weight: 900;}	
+h1 .text-muted{display: block;line-height: 3rem; font-size: .98rem;color: #000 !important;}
+.card-group:nth-child(1){text-align: right;}
+.card-group{line-height: 1.82rem;color: #333;font-size: 0.82rem;
+	strong{display: block; width: 100%;line-height: 3.4rem; font-size: 1.2rem;}
+	.card{min-height:19rem;}
+	.card:nth-child(1){padding-top: 4rem; text-align: right;}
+	.card:nth-child(2){background:url(./assets/images/ielit_bg1.png) center no-repeat; background-size: cover;}
+	.card:nth-child(5){background:url(./assets/images/ielit_bg2.png) center no-repeat; background-size: cover;}
+	.card:nth-child(7){background:url(./assets/images/ielit_bg3.png) center no-repeat; background-size: cover;}
+	i{font-size: 3rem;color: #FCB69F;}
+	}
+	
+}
+
+
+// 首页团队
+.iteam{margin-top: 2rem; padding-top:2rem; /* height: 20rem; */background: url(./assets/images/iteam_bg.png) center no-repeat;background-size:cover;
+h2{text-align: center;color: #fff;font-size: 1.5rem; }
+h2 .text-muted{display: block;line-height: 3rem; font-size: .98rem;color: #fff !important;}
+.col-md-5{padding-right:0;overflow: hidden;
+	&:hover{
+		&::before{    transition-delay: 0s;opacity: .58; transition: opacity 1s ease .28s;}
+		.iteam_title{opacity: 1;color: #EFE448;}
+		.iteam_cover{margin-left: 15px; transform-origin: 50% 100%; transition-delay: .32s, .22s; transform: none;transition: opacity .6s ease, transform .86s cubic-bezier(0.19, 1, 0.22, 1);}
+		img{margin-bottom: -1rem; transform: rotateX(25deg);transition-delay: 0s;}
+	}
+	&:visited img{transition-delay: 0s;transform: translate3d(0,10px,10px) rotate3d(1,0,0,8deg);}
+	img{width: 100%;transition: transform 1s cubic-bezier(0.19, 1, 0.22, 1) .28s;}
+	}
+.col-md-7{ padding-left:0;padding-top: 3rem;height: 23.5rem;  background:#fff;
+	h3{padding-left: 3rem;font-size: 1.2rem;}
+	strong{padding-right: 0.6rem; color:#f00;font-size:1.8rem}
+	p{padding-left:3rem;color: #333;}
+	ul{@include myul; padding-left:3.0rem;font-size: 0.92rem;color: #666;}
+	li{line-height: 1.82rem;}
+	li:before{content: "\2022";color: #FB8F29;}
+	}
+
+}
+
+.iteam_cover{position: absolute;background: #ff6b00;transform: rotate3d(1,0,0,8deg) translate3d(0,-110%,-50px); opacity: .9;top: 0;left: 0;width: 100%;height: 100%;content: '';z-index: 2;}
+
+.iteam_title{position: absolute; top:11rem;left: 2rem;font-size:1.4rem;color: #f00;  transform: translateY(-10px);z-index: 2;}
+
+
+
+// 分页器
+.home_pagination{display: block;margin-top: 1rem; width: 100%;
+.page-link{background-color: #999;color: #ccc;}
+.page-link:hover{background-color: #fff;}
+.page-item.disabled .page-link{background-color: #999;}
+.active .page-link{background: #666;border-color: #dee2e6;}
+.active .page-link:hover{background: #fff;color: #000; }
+.page-item:first-child .page-link{border-top-left-radius:0;border-bottom-left-radius: 0;}
+.page-item:last-child .page-link{border-top-right-radius: 0;border-bottom-right-radius: 0;}
+}
+
+.home_list{
+img{width: 100%;   max-height: 10rem;}
+.col-md-8{padding-bottom: 1rem;padding-left: 0;padding-right: 0; border-bottom: 1px solid #2D2D2D;}	
+.col-md-10{@include 段落文本对齐处理;color: #666;}	
+// .col-md-2{padding-left: 0;}
+strong a{color: #fff;font-size: 1.24rem;font-weight: 100;font-family: $苹方极细字体;}	
+strong a:hvoer{text-decoration:none !important;color: currentcolor;}
+}
+
+
+
+.about{text-align: center;}
+
+// 全站页脚
+.ifooter{text-align:center;color: #eee;opacity: 0.3;
+a{color: #eee;}
+}
+
+/*针对Markdown的highlight.js之dark主题代码，引用它，同时还要调用highlight和highlightjs-line-numbers更佳，参照z01.com/blog/ */
+.hljs-comment,.hljs-quote{color:#7195a8;}
+.hljs-variable,.hljs-template-variable,.hljs-attribute,.hljs-tag,.hljs-name,.hljs-regexp,.hljs-link,.hljs-name,.hljs-selector-id,.hljs-selector-class{color:#d22d72;}
+.hljs-number,.hljs-meta,.hljs-built_in,.hljs-builtin-name,.hljs-literal,.hljs-type,.hljs-params{color:#935c25;}
+.hljs-string,.hljs-symbol,.hljs-bullet{color:#568c3b;}
+.hljs-title,.hljs-section{color:#257fad;}
+.hljs-keyword,.hljs-selector-tag{color:#6b6bb8;}
+.hljs{display:block;overflow-x:auto;background:#161b1d;color:#7ea2b4;padding:.5em;}
+.hljs-emphasis{font-style:italic;}
+.hljs-strong{font-weight:700;}
+.hljs-ln-numbers{padding-right:0.6rem !important;border-right:1px solid #999;}
+.hljs-ln-code{margin-left:0.6rem !important;padding-left:1rem !important;}
+
+// 内容页定义
+.content_bg{background: #fff;}
+
+.myContent {
+h1{font-size: 1.42em;}
+h2{font-size: 1.32em;}
+h3{font-size: 1.24em;}
+img{display: block;max-width:100%;margin-top: 1rem; margin: auto;padding:1rem 2rem;border:0.1rem dashed #9E9E9E; }
+blockquote{font-size: 1.38rem; line-height: 0.98rem; color: rgba(0, 0, 0, 0.6);font-style: italic;}
+}
+
+
+@media screen and (max-width:768px){ /*小于768px私有*/
+.navbar-dark .navbar-toggler-icon{background-image:  url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(0, 0, 0, 0.95)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");}
+
+}
+
+
+
+
+/*key:UG93ZXJlZCBieSBab29tbGEh6YCQ5rWqQ01TIHd3d3cuejAxLmNvbQ== */

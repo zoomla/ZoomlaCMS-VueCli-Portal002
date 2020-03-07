@@ -1,0 +1,58 @@
+<template>
+<div class="iteam">
+<div class="container">
+<h2>专业团队<small class="text-muted">心无旁骛，精益求精，只办理婚姻家事案件</small></h2>
+<b-row class="mb-3">
+<b-col md="5" class="">
+<div class="iteam_cover"></div>
+<b-img src="../assets/images/home_team1.jpg"  alt="唐乐律师"></b-img>
+<div class="iteam_title"><i class="zi zi_trophy"></i> 首席合伙人</div>
+</b-col>
+<b-col md="7" class="">
+<h3><strong>唐乐</strong>首席合伙人</h3>
+<p>执业10余年，一直专注于婚姻家事业务的研究和实践，带领团队共同专研和办理过两千余起婚姻家事案件。曾1个月内解决某大型房企股东离婚纠纷，为当事人争得财产5000万！</p>
+<ul>
+<li>中央电视</li>	
+<li>《法律讲堂》主讲律师</li>
+<li>中央电视台《小区大事》特邀律师</li>
+<li>北京电视台《第三调解室》特邀专家</li>
+<li>北京广播电台《警法在线》特邀专家</li>
+</ul>	
+</b-col>
+</b-row>
+<b-row class="mb-3">
+<b-col md="5" class="">
+<div class="iteam_cover"></div>
+<b-img src="../assets/images/home_team1.jpg"  alt="唐乐律师"></b-img>
+<div class="iteam_title"><i class="zi zi_trophy"></i> 首席合伙人</div>
+</b-col>
+<b-col md="7" class="">
+<h3><strong>唐乐</strong>首席合伙人</h3>
+<p>执业10余年，一直专注于婚姻家事业务的研究和实践，带领团队共同专研和办理过两千余起婚姻家事案件。曾1个月内解决某大型房企股东离婚纠纷，为当事人争得财产5000万！</p>
+<ul>
+<li>中央电视</li>	
+<li>《法律讲堂》主讲律师</li>
+<li>中央电视台《小区大事》特邀律师</li>
+<li>北京电视台《第三调解室》特邀专家</li>
+<li>北京广播电台《警法在线》特邀专家</li>
+</ul>	
+</b-col>
+</b-row>
+</div>
+</div>
+</template>
+<script>
+export default {
+	name:"",
+    props: {
+	// cols:Number,
+	// md: Number,
+	// className: String,
+    // con: String,
+	// icpOpen: Boolean,
+	// icp:String,
+	// fff:Number
+  }
+}
+</script>
+<!-- 使用方法：<ZoomlaFoot cols="12" md="12" class="bg-info" con="2020年逐浪软件科技" :icpOpen="true" icp="沪ICP200800号"/> -->

@@ -1,0 +1,71 @@
+<template>
+<div class="caifu">
+<div class="caifu_banner">
+<b-container fluid="xl">
+    <b-row>
+	<b-col md="7">   
+    <div class="chengxu_banner_box">
+<strong>盈家律师助您<span>“让您分得应得财产”</span></strong>
+<p>免费咨询热线：<span>15879010591</span></p>
+<p>《法律讲堂》《第三调解室》<span>“唐乐”</span>律师亲自带队办案</p>
+    </div>
+	</b-col>
+    </b-row>    
+</b-container>
+</div>
+<!-- caifu_banner end -->
+
+<b-container fluid="xl">    
+财富继承 ipsum dolor sit, amet consectetur adipisicing elit. Est, animi saepe exercitationem minus at cupiditate quo libero dolor ad. Dolorem optio dignissimos ut esse doloribus, placeat ex! Suscipit, corporis sed?
+</b-container>
+
+<footer>
+<b-container fluid="xl">
+<b-row>
+<b-col md="4">
+	<i class="zi zi_phonevolume"></i>
+	免费客服热线:(周一至周日 9:00-18:00）
+	15879010591
+</b-col>
+<b-col md="4">
+	<i class="zi zi_map"></i>
+	联系地址：南昌市西湖区洪池路2号汇景国际综合楼3A层   江西朗秋律师事务所
+</b-col>
+<b-col md="4">
+	<b-img src="../assets/images/qrcode.jpg" alt="微信关注我们"></b-img>
+	微信关注我们
+</b-col>
+</b-row>
+</b-container>
+</footer>
+
+<b-container fluid="xl">
+<ZoomlaFoot :cols="12" :md="12" class="" con="2020年朗秋团队" :icpOpen="true" icp="沪ICP200800号"/>	
+</b-container>
+
+</div>
+</template> 
+<script>
+ export default {
+    name: 'DealRepair',
+    metaInfo: {
+      title: '财富继承',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no' },
+		{ vmid: 'description', name: 'description', content: '唐乐律师官方网站' },
+		{ vmid: 'keywords',name: 'keywords',content: '婚姻,家事,离婚,南昌法院,南昌小三案件,南昌夫妻财产' }
+      ]
+    },
+    data () {
+      return {
+
+      }
+    },
+    mounted(){
+    },
+    methods:{
+
+    }
+}
+</script>

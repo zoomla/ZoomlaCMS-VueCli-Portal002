@@ -1,0 +1,223 @@
+<template>
+<div class="chengxu">
+<div class="chengxu_banner">
+<b-container fluid="xl">
+    <b-row>
+	<b-col md="7" class="offset-md-5">   
+    <div class="chengxu_banner_box">
+<strong>盈家律师助您<span>“想离就离”</span></strong>
+<p>免费咨询热线：<span>15879010591</span></p>
+<p>《法律讲堂》《第三调解室》<span>“唐乐”</span>律师亲自带队办案</p>
+    </div>
+	</b-col>
+    </b-row>    
+</b-container>
+</div>
+<!-- chenxu_banner end -->
+
+<div class="chengxu_xz">
+<b-container fluid="xl" class="">
+<h1><span>两种离婚方式</span> • 该如何选择</h1>
+<b-row>
+<b-col md="4">
+<div class="chengxu_xz_box">
+<span>协议离婚</span>    
+<p>离婚双方当事人自愿解除婚姻关系，并就离婚的相关法律问题达成协议，在婚姻登记机关办理离婚登记后，婚姻关系归于消灭。</p>
+</div>
+</b-col>   
+<b-col md="4">
+ <b-img src="../assets/images/chengxu_xz1.png" fluid alt="协议离婚"></b-img>	
+</b-col>   
+<b-col md="4">
+<div class="chengxu_xz_box">
+<span>协议离婚的优点</span>    
+<ul>
+<li>程序简单、便捷</li>
+<li>时间短(手续齐全，当场办离婚证)</li>
+<li>费用低（仅收取离婚证工本费）</li>
+<li>伤害小（相对隐秘，压力小）</li>
+</ul>   
+</div>
+</b-col>   
+<b-col md="4">
+<div class="chengxu_xz_box">
+<span>诉讼离婚</span>    
+<p>离婚双方当事人就是否离婚、财产分割、子女抚养等问题无法达成一致意见时，而向法院起诉，法院经过审理后，通过调解或判决解除婚姻关系。</p>    
+</div>
+</b-col>   
+<b-col md="4">
+<b-img src="../assets/images/chengxu_xz2.png" fluid alt="协议离婚"></b-img>	
+</b-col>   
+<b-col md="4">
+<div class="chengxu_xz_box">
+<span>诉讼离婚可解决
+</span>    
+<ul>
+<li>一方离婚，另外一方不同意的</li>
+<li>财产、子女等问题无法协商一致的</li>
+<li>一方无行为能力或限制行为能力的</li>
+<li>一方下落不明，另一方要离婚的</li>
+</ul>      
+</div>
+</b-col>   
+<b-col md="8" class="offset-md-2">
+<strong>哪个方式更适合您？</strong>
+<small>如果能与对方就是否离婚、财产分割、子女抚养等问题达成一致，协议离婚是个不错的选择。如果无法协商一致，则只能选择诉讼离婚。</small>
+</b-col>    
+</b-row> 
+</b-container>
+</div>
+<!-- chengxu_z end -->
+
+<b-container fluid="xl" class="chengxu_ask">
+<h1><span>常见问题</span> • 律师答疑</h1>    
+
+</b-container>
+<!-- chengxu_ask end -->
+
+
+
+<b-container fluid="xl" class="iask">
+<h2>专业律师答疑</h2>
+<small>你想的，我们都懂</small>
+<b-row>
+<b-col md="6">
+<div class="iask_box">
+<div class="iask_boxCon">
+<p>
+<b-img src="../assets/images/iaskR1.png" alt="网友1咨询"></b-img>
+网友1</p>
+<span>离婚诉讼什么情况下需要找律师?</span>
+</div>
+<div class="iask_boxCon2">
+<p>
+如果：(1)对方已经聘请律师；(2)您希望获得更多权益；(3)案件复杂、标的额大；(4)工作生活忙碌；(5)心理比较脆弱；(6)上庭紧张。有上述任一情形的，我们建议找律师办理诉讼离婚。
+</p>
+<span>
+<b-img src="../assets/images/iaskR5.png" alt="律师答疑"></b-img>
+唐乐首席律师	
+</span>
+</div>
+</div>	
+</b-col>
+<b-col md="6">
+<div class="iask_box">
+<div class="iask_boxCon">
+<p>
+<b-img src="../assets/images/iaskR2.png" alt="网友1咨询"></b-img>
+网友2</p>
+<span>律师办理案件有哪些优势?</span>
+</div>
+<div class="iask_boxCon2">
+<p>
+必须要承认：律师比您专业。律师可灵活运用专业知识为您定制胜诉方案，让您在诉讼起始就占据主动，少走弯路，弥补您在调查收集证据上的各种不便，律师具备良好的逻辑思维能力、快速反应能力、语言表达能力，在如战场的法庭上，请律师的当事人会更为有利。
+</p>
+<span>
+<b-img src="../assets/images/iaskR5.png" alt="律师答疑"></b-img>
+唐乐首席律师	
+</span>
+</div>
+</div>	
+</b-col>
+<b-col md="6">
+<div class="iask_box">
+<div class="iask_boxCon">
+<p>
+<b-img src="../assets/images/iaskR3.png" alt="网友3咨询"></b-img>
+网友3</p>
+<span>什么情况下必须找律师?</span>
+</div>
+<div class="iask_boxCon2">
+<p>
+首先是坦诚，律师要实事求是，不做虚假承诺；其次是专业，一方面要找专做或主做婚姻家事案件的律师，另一方面，律师的职业素养也很重要，靠谱的律师应该是耐心的、严守秘密的、做事主动的；第三是经验，要找办理过类似案件的律师；然后是规范，靠谱律师都是明码标价、签订书面委托协议、由律师统一收费，有标准办案流程的。
+</p>
+<span>
+<b-img src="../assets/images/iaskR5.png" alt="律师答疑"></b-img>
+唐乐首席律师	
+</span>
+</div>
+</div>	
+</b-col>
+<b-col md="6">
+<div class="iask_box">
+<div class="iask_boxCon">
+<p>
+<b-img src="../assets/images/iaskR4.png" alt="网友4咨询"></b-img>
+网友4</p>
+<span>为什么律师无法在咨询时给出报价?</span>
+</div>
+<div class="iask_boxCon2">
+<p>
+影响律师费的因素有两点：一是案件本身，包括案件标的额、案件事实清晰程度、案件难易、证据情况、地域问题；二是律师因素：包括律师的专业度经验。在电话咨询中，一方面，受专业限制，您对案件事实描述可能存在偏差；另一方面，律师没有看到具体证据，无法判断自身工作量。在对案件整体没有一个准确把握的情形下，这时具体报价显然不客观。
+</p>
+<span>
+<b-img src="../assets/images/iaskR5.png" alt="律师答疑"></b-img>
+唐乐首席律师	
+</span>
+</div>
+</div>	
+</b-col>
+</b-row>
+</b-container>
+<!-- iask end -->
+
+
+
+<b-container><br>
+<br>
+<br>
+离婚程序Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est, animi saepe exercitationem minus at cupiditate quo libero dolor ad. Dolorem optio dignissimos ut esse doloribus, placeat ex! Suscipit, corporis sed?
+</b-container>
+
+
+
+<footer>
+<b-container fluid="xl">
+<b-row>
+<b-col md="4">
+	<i class="zi zi_phonevolume"></i>
+	免费客服热线:(周一至周日 9:00-18:00）
+	15879010591
+</b-col>
+<b-col md="4">
+	<i class="zi zi_map"></i>
+	联系地址：南昌市西湖区洪池路2号汇景国际综合楼3A层   江西朗秋律师事务所
+</b-col>
+<b-col md="4">
+	<b-img src="../assets/images/qrcode.jpg" alt="微信关注我们"></b-img>
+	微信关注我们
+</b-col>
+</b-row>
+</b-container>
+</footer>
+
+<b-container fluid="xl">
+<ZoomlaFoot :cols="12" :md="12" class="" con="2020年朗秋团队" :icpOpen="true" icp="沪ICP200800号"/>	
+</b-container>
+
+</div>
+</template>
+<script>
+ export default {
+    name: 'DealRepair',
+    metaInfo: {
+      title: '离婚程序',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no' },
+		{ vmid: 'description', name: 'description', content: '唐乐律师官方网站' },
+		{ vmid: 'keywords',name: 'keywords',content: '婚姻,家事,离婚,南昌法院,南昌小三案件,南昌夫妻财产' }
+      ]
+    },
+    data () {
+      return {
+
+      }
+    },
+    mounted(){
+    },
+    methods:{
+
+    }
+}
+</script>

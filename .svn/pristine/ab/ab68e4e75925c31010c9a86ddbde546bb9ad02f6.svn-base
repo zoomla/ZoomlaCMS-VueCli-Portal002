@@ -1,0 +1,146 @@
+<template>
+<div class="haizi">
+<div class="haizi_banner">
+<b-container>
+<b-row>
+<b-col md="8" class="offset-md-2">
+<div class="haizi_banner_box">
+<strong>《法律讲堂》《第三调解室》唐乐律师亲自带队办案</strong>
+<p>已帮助<span>“300多位”</span>当事人获得孩子抚养权</p>
+<p>庭前辅导确保覆盖“95%”的法官提问</p>
+<p>免费咨询热线：15879010591</p>
+</div>
+</b-col>
+</b-row>
+</b-container>
+</div>    
+<!-- haizi_banner end -->
+
+<div class="haizi_ask">
+<b-container>
+<h1><span>常见问题</span> • 易轶律师答疑</h1>   
+<b-row>
+<div class="w-100 text-center"><h2>问题1：有利于获得孩子抚养权的证据有哪些？</h2></div>    
+<b-col md="8" class="offset-md-4 haizi_askA">
+<ul>
+<li><strong>01</strong>
+<abbr>已形成稳定的生活习惯</abbr>
+如：(1)孩子日常学习生活的照片，您陪伴孩子治病、上学等凭证；
+(2)孩子和您长期生活在一起，可提供孩子入学凭证、学习生活照片等。
+</li>
+<li><strong>02</strong>
+<abbr>能提供良好的抚养环境</abbr>
+如：(1)经济条件：有收入、稳定住所等；(2)身体素质：身体条件、学历品德等；(3)居住环境：周边环境设施（医院、学校等）利于孩子成长；(4)父母承诺：书面承诺帮忙照顾孩子。
+</li>
+<li>    
+<strong>03</strong>
+<abbr>孩子性别、性格等因素</abbr>
+如：孩子为男孩，男方直接抚养可能更利于孩子性格培养的说明。
+</li>
+<li>
+<strong>04</strong>
+<abbr>身体原因今后难以生育其他子女</abbr>
+如：已做绝育手术的证据。
+</li>
+<li>
+<strong>05</strong>
+<abbr>对方不适合抚养孩子的证据</abbr>
+如：(1)对方有其他子女;  (2)对方有家庭暴力、虐待、遗弃、赌博、吸毒等恶习;
+(3)对方有恶疾 对方正在服刑有犯罪记录;  (4)对方与孩子不存在血缘关系;
+(5)对方下落不明，经济条件、身体素质、居住环境差。
+</li>
+</ul>
+</b-col>
+<b-col md="12" class="haizi_askB">
+<h2>问题2：孩子的年龄对抚养权判决有什么影响？</h2>    
+<ul class="row">
+<li class="col-md-4">
+<div class="haizi_askB_box">
+<b-img src="../assets/images/haizi_askB1.png" alt="问题2：孩子的年龄对抚养权判决有什么影响？"></b-img>
+<strong>2周以内的孩子,女方占优势</strong>
+一般随母亲生活，这主要考虑孩子尚处在幼儿期，
+需要哺乳母亲更能给孩子体贴和照顾
+</div>
+</li>
+<li class="col-md-4">
+<div class="haizi_askB_box">
+<b-img src="../assets/images/haizi_askB2.png" alt="问题2：孩子的年龄对抚养权判决有什么影响？"></b-img>
+<strong>2-10周岁的孩子情况特别复杂</strong>
+父母双方在抚养权争夺中所有的条件都有考虑，
+法官会综合评估哪一方更适合直接抚养孩子
+</div>
+</li>
+<li class="col-md-4">
+<div class="haizi_askB_box">
+<b-img src="../assets/images/haizi_askB3.png" alt="问题2：孩子的年龄对抚养权判决有什么影响？"></b-img>
+<strong>10周岁（北京是6周岁）以上可征求孩子的意见</strong>
+这个年龄段的孩子有一定的识别能力，
+法律规定必须征求孩子的意见，
+实践中，对这个年龄要求有降低的趋势
+</div>
+</li>
+</ul>
+</b-col>
+<b-col class="haizi_askC">
+<h3>风险提示</h3>
+离婚期间，非常大的风险就是对方将孩子带走隐藏起来。对方这么做的目的可能是希望在抚养权争夺战中占据优势，也可能是想以孩子为筹码，得到房产或者分到更多财产。但不论是哪种目的，如果孩子被带走成为现实，绝对对你不利。所以，我们建议，在分居时应全力争取与孩子共同生活，切记不要单独把孩子带离你的视线。
+</b-col>
+</b-row> 
+</b-container>
+
+
+
+</div>
+
+
+
+<footer>
+<b-container fluid="xl">
+<b-row>
+<b-col md="4">
+	<i class="zi zi_phonevolume"></i>
+	免费客服热线:(周一至周日 9:00-18:00）
+	15879010591
+</b-col>
+<b-col md="4">
+	<i class="zi zi_map"></i>
+	联系地址：南昌市西湖区洪池路2号汇景国际综合楼3A层   江西朗秋律师事务所
+</b-col>
+<b-col md="4">
+	<b-img src="../assets/images/qrcode.jpg" alt="微信关注我们"></b-img>
+	微信关注我们
+</b-col>
+</b-row>
+</b-container>
+</footer>
+
+<b-container fluid="xl">
+<ZoomlaFoot :cols="12" :md="12" class="" con="2020年朗秋团队" :icpOpen="true" icp="沪ICP200800号"/>	
+</b-container>
+
+</div>
+</template> 
+<script>
+ export default {
+    name: 'DealRepair',
+    metaInfo: {
+      title: '子女抚养',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no' },
+		{ vmid: 'description', name: 'description', content: '唐乐律师官方网站' },
+		{ vmid: 'keywords',name: 'keywords',content: '婚姻,家事,离婚,南昌法院,南昌小三案件,南昌夫妻财产' }
+      ]
+    },
+    data () {
+      return {
+
+      }
+    },
+    mounted(){
+    },
+    methods:{
+
+    }
+}
+</script>

@@ -1,0 +1,121 @@
+<template>
+<div class="contact">
+<div class="ibanner">	
+<b-container fluid="xl">
+<b-row>
+	<b-col md="7" class="offset-md-5">
+	<div class="ibanner_box">
+	<ul>
+		<li>唐乐律师团队-专注办理婚姻家事案件</li>
+		<li>南昌市优秀律师和知名婚姻家事、财富管理律师<br/><strong><span> “唐乐”</span>亲自带队</strong></li>
+		<li><i class="zi zi_checksquare"></i> 想离就离<i class="zi zi_checksquare"></i> 争到孩子<i class="zi zi_checksquare"></i> 得到财产</li>
+		<li>咨询电话：15879010591</li>
+	</ul>
+	</div>	
+	</b-col>		
+</b-row>		
+</b-container>	
+</div>
+<!-- ibanner end -->
+
+<b-container fluid="xl">
+<h1>留下电话-联系我们</h1>
+
+<div class="zbf_jmdl">
+
+<b-card
+title="加盟代理" tag="article" style="max-width: " class="mb-2" >
+<b-card-text>
+  加入我们的代理，一起开拓事业和丰收！
+</b-card-text>
+<!-- <b-button href="#" variant="primary">Go somewhere</b-button> -->
+</b-card>	
+<b-form-input v-model="PubTitle" placeholder="PubTitle- your name"></b-form-input>
+<b-form-input v-model="PubContent" placeholder="PubContent- your name"></b-form-input>
+
+
+<hr>
+
+<group>
+<b-form-input v-model="form.name" placeholder="PubTitle- your name"></b-form-input>
+<b-form-input v-model="form.mobile" placeholder="PubTitle- your name"></b-form-input>
+
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates atque amet deserunt ad optio sed cupiditate voluptate veritatis aperiam dolorem quam consequuntur obcaecati quibusdam quae animi consectetur maxime ratione quas.
+	<!-- <x-input title="姓名" placeholder="请输入姓名" v-model="form.name"></x-input>
+	<x-input title="手机" placeholder="请输入手机号" v-model="form.mobile"></x-input> -->
+</group>
+	
+<b-container class="zbf_jmdl_join">
+  <b-button @click="submit()" variant="info btn-block">立即加入</b-button>
+</b-container>	
+</div>
+
+</b-container>
+
+
+<h1>This is an about page</h1>
+联系我们
+<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+
+	<br>
+	<br>
+	<br>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat voluptas ipsa officiis provident neque placeat aperiam voluptatem voluptatum enim eaque error animi commodi exercitationem eius ducimus temporibus fuga excepturi quis!
+	
+
+<footer>
+<b-container fluid="xl">
+<b-row>
+<b-col md="4">
+	<i class="zi zi_phonevolume"></i>
+	免费客服热线:(周一至周日 9:00-18:00）
+	15879010591
+</b-col>
+<b-col md="4">
+	<i class="zi zi_map"></i>
+	联系地址：南昌市西湖区洪池路2号汇景国际综合楼3A层   江西朗秋律师事务所
+</b-col>
+<b-col md="4">
+	<b-img src="../assets/images/qrcode.jpg" alt="微信关注我们"></b-img>
+	微信关注我们
+</b-col>
+</b-row>
+</b-container>
+</footer>
+
+<b-container fluid="xl">
+<ZoomlaFoot cols="12" md="12" class="" con="2020年朗秋团队" :icpOpen="true" icp="沪ICP200800号"/>	
+</b-container>	
+	</div>
+</template>
+
+
+<script>
+	export default{
+		data(){
+			var ref=this;
+			var model={form:{}};
+			return model;
+		},
+		methods:{
+			submit:function(){
+				var ref=this;
+				if(ref.Regex.isEmpty(ref.form.name)){ref.util.alert("姓名不能为空");return false;}
+				if(!ref.Regex.isMobilePhone(ref.form.mobile)){ref.util.alert("手机号格式不正确 ");return false;}
+				var loading=ref.$weui.loading("正在提交中...");
+				ref.jsp("pub_add&pubid=7",{"model":JSON.stringify(ref.form)}).then((ret)=>{
+					loading.hide();
+					if(ret.retcode!=1){ref.util.alert(ret.retmsg);return false;}
+					//-----------------------------
+					ref.util.alert("加盟代理申请已提交成功,请等待管理员审核");
+				})
+			}
+		}
+	}
+</script>	

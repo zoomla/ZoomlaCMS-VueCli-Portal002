@@ -1,0 +1,157 @@
+<template>
+<div class="home">
+<div class="ibanner">	
+<b-container fluid="xl">
+<b-row>
+	<b-col md="7" class=" offset-md-5">
+	<div class="ibanner_box">
+	<ul>
+		<li>唐乐律师团队-专注办理婚姻家事案件</li>
+		<li>南昌市优秀律师和知名婚姻家事、财富管理律师<br/><strong><span> “唐乐”</span>亲自带队</strong></li>
+		<li><i class="zi zi_checksquare"></i> 想离就离<i class="zi zi_checksquare"></i> 争到孩子<i class="zi zi_checksquare"></i> 得到财产</li>
+		<li>咨询电话：15879010591</li>
+	</ul>
+	</div>	
+	</b-col>		
+</b-row>		
+</b-container>	
+</div>
+ <!-- ibanner end -->
+ 
+<b-container fluid="xl" class="ielit">
+<h1>“步步为营”-离婚全程指导
+<small class="text-muted">律师一对一咨询，有问必答，专业法律意见</small>
+</h1>
+<b-card-group>
+<b-card title="" >
+	<b-card-text>
+<i class="zi zi_circleRights"></i>
+<strong>如何快速离婚</strong>
+对方不意离婚怎么办/我不想离婚怎么办<br>
+找不到对方/对方拒绝出庭怎么办<br>
+对方有家暴怎么办/对方有外遇怎么办
+	</b-card-text>
+</b-card>
+<b-card title="" >
+	<b-card-text>
+	</b-card-text>
+</b-card>
+
+<b-card title="" >
+	<b-card-text>
+		This is a wider card with supporting text below as a natural lead-in to additional content.
+		This content is a little bit longer.
+	</b-card-text>
+</b-card>
+<div class="clearfix w-100"></div>
+
+<b-card title="" >
+	<b-card-text>
+	</b-card-text>
+</b-card>
+
+<b-card title="" >
+	<b-card-text>
+		This is a wider card with supporting text below as a natural lead-in to additional content.
+		This content is a little bit longer.
+	</b-card-text>
+</b-card>
+
+<b-card title="" >
+	<b-card-text>
+	</b-card-text>
+</b-card>
+
+</b-card-group>
+
+
+<b-row>
+	
+	<b-col md="4" class="bg-info">aaa</b-col>		
+	<b-col md="4" class="bg-info">aaa</b-col>		
+	<b-col md="4" class="bg-info">aaa</b-col>		
+	<b-col md="4" class="bg-info">aaa</b-col>		
+	<b-col md="4" class="bg-info">aaa</b-col>		
+	<b-col md="4" class="bg-info">aaa</b-col>		
+</b-row>
+</b-container>
+<!-- ielit end -->
+
+
+ 
+<div class="iteam">
+<div class="container">
+<h2>家理团队<small class="text-muted">心无旁骛，精益求精，只办理婚姻家事案件</small></h2>
+<b-row class="mb-3">
+<b-col md="5" class="">
+<div class="iteam_cover"></div>
+<b-img src="../assets/images/home_team1.jpg"  alt="唐乐律师"></b-img>
+<div class="iteam_title"><i class="zi zi_trophy"></i> 首席合伙人</div>
+</b-col>
+<b-col md="7" class="">
+<h3><strong>唐乐</strong>首席合伙人</h3>
+<p>执业10余年，一直专注于婚姻家事业务的研究和实践，带领团队共同专研和办理过两千余起婚姻家事案件。曾1个月内解决某大型房企股东离婚纠纷，为当事人争得财产5000万！</p>
+<ul>
+<li>中央电视</li>	
+<li>《法律讲堂》主讲律师</li>
+<li>中央电视台《小区大事》特邀律师</li>
+<li>北京电视台《第三调解室》特邀专家</li>
+<li>北京广播电台《警法在线》特邀专家</li>
+</ul>	
+</b-col>
+</b-row>
+<b-row>
+<b-col md="5" class=""><b-img src="../assets/images/home_team1.jpg"  alt="唐乐律师"></b-img></b-col>
+<b-col md="7" class="bg-info">ccc</b-col>
+</b-row>
+</div>
+</div>
+ <!-- iteam end -->
+
+
+<b-container>
+	<h1>唐乐律师团队</h1>
+	
+	
+</b-container>
+    <!-- <img alt="Vue logo" src="../assets/logo.png"> -->
+    <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
+<b-container fluid="xl">
+<ZoomlaFoot cols="12" md="12" class="" con="2020年逐浪软件科技" :icpOpen="true" icp="沪ICP200800号"/>	
+</b-container>	
+</div>
+</template>
+
+<script>
+ export default {
+    name: 'DealRepair',
+    metaInfo: {
+      title: '唐乐律师团队',
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no' },
+		{ vmid: 'description', name: 'description', content: '唐乐律师官方网站' },
+		{ vmid: 'keywords',name: 'keywords',content: '婚姻,家事,离婚,南昌法院,南昌小三案件,南昌夫妻财产' }
+      ]
+    },
+    data () {
+      return {
+
+      }
+    },
+    mounted(){
+    },
+    methods:{
+
+    }
+}	
+// @ is an alias to /src
+// import HelloWorld from '@/components/HelloWorld.vue'
+
+// export default {
+//   name: 'Home',
+//   components: {
+//     HelloWorld
+//   }
+// }
+</script>
