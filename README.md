@@ -28,18 +28,34 @@ QQ交流群号：
 - icon图标库基于国产zico图标库，官网http://ico.z01.com
 - 
 
-## Project setup
+## 使用说明
+1、先安装Vue CLI，安装方法：
 ```
+npm install -g @vue/cli
+# OR
+yarn global add @vue/cli
+```
+
+2、安装nodeJS，即`npm`支持，或`yarn`。
+
+3、获取本程序包后，在程序根目录安装Node环境，安装命令：
+```
+npm install
+# or
 yarn install
 ```
 
-### Compiles and hot-reloads for development
+4、运行，输入下面命令就能成功运行：
 ```
+npm run serve
+# or
 yarn serve
 ```
 
-### Compiles and minifies for production
+5、发布最终版本（最终发布目录存于dist目录下）
 ```
+npm run build
+# or
 yarn build
 ```
 
