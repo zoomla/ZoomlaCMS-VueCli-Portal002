@@ -2857,6 +2857,11 @@ deepmerge@^1.5.2:
   resolved "https://registry.npm.taobao.org/deepmerge/download/deepmerge-1.5.2.tgz#10499d868844cdad4fee0842df8c7f6f0c95a753"
   integrity sha1-EEmdhohEza1P7ghC34x/bwyVp1M=
 
+deepmerge@^4.2.2:
+  version "4.2.2"
+  resolved "https://registry.yarnpkg.com/deepmerge/-/deepmerge-4.2.2.tgz#44d2ea3679b8f4d4ffba33f03d865fc1e7bf4955"
+  integrity sha512-FJ3UgI4gIl+PHZm53knsuSFpE+nESMr7M4v9QcgB7S63Kj/6WqMiFQJpBBYz1Pt+66bZpP3Q7Lye0Oo9MPKEdg==
+
 default-gateway@^4.2.0:
   version "4.2.0"
   resolved "https://registry.npm.taobao.org/default-gateway/download/default-gateway-4.2.0.tgz#167104c7500c2115f6dd69b0a536bb8ed720552b"
@@ -8420,6 +8425,11 @@ vue-hot-reload-api@^2.3.0:
   resolved "https://registry.npm.taobao.org/vue-hot-reload-api/download/vue-hot-reload-api-2.3.4.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fvue-hot-reload-api%2Fdownload%2Fvue-hot-reload-api-2.3.4.tgz#532955cc1eb208a3d990b3a9f9a70574657e08f2"
   integrity sha1-UylVzB6yCKPZkLOp+acFdGV+CPI=
 
+vue-jsonp@^0.1.8:
+  version "0.1.8"
+  resolved "https://registry.yarnpkg.com/vue-jsonp/-/vue-jsonp-0.1.8.tgz#2cec054b0aca5a9c7de0146b16b2acbeec2d73a7"
+  integrity sha512-ebxvjHl5D7bv5Z7SeRzZUAPOSRMx+RiAeej7h6dPpbtk8MVz/b3n9fOZ8AAVmakb1pe36e+qG0J+K49a3LfpKA==
+
 vue-loader@^15.8.3:
   version "15.9.0"
   resolved "https://registry.npm.taobao.org/vue-loader/download/vue-loader-15.9.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fvue-loader%2Fdownload%2Fvue-loader-15.9.0.tgz#5d4b0378a4606188fc83e587ed23c94bc3a10998"
@@ -8430,6 +8440,13 @@ vue-loader@^15.8.3:
     loader-utils "^1.1.0"
     vue-hot-reload-api "^2.3.0"
     vue-style-loader "^4.1.0"
+
+vue-meta@^2.3.2:
+  version "2.3.4"
+  resolved "https://registry.yarnpkg.com/vue-meta/-/vue-meta-2.3.4.tgz#fe28af0721e9bc4003422bd4b401c0b628512d12"
+  integrity sha512-Mz/5ykeWlhyTDVSTFLBM5tmVU/C+fX6rmVAkLSxbYegJUhUZh3N4D0b7nC0/knG1esK2l6r8iW/N0KeU+38bEQ==
+  dependencies:
+    deepmerge "^4.2.2"
 
 vue-router@^3.1.5:
   version "3.1.5"
@@ -8624,9 +8641,9 @@ websocket-driver@>=0.5.1:
     websocket-extensions ">=0.1.1"
 
 websocket-extensions@>=0.1.1:
-  version "0.1.3"
-  resolved "https://registry.npm.taobao.org/websocket-extensions/download/websocket-extensions-0.1.3.tgz#5d2ff22977003ec687a4b87073dfbbac146ccf29"
-  integrity sha1-XS/yKXcAPsaHpLhwc9+7rBRszyk=
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/websocket-extensions/-/websocket-extensions-0.1.4.tgz#7f8473bc839dfd87608adb95d7eb075211578a42"
+  integrity sha512-OqedPIGOfsDlo31UNwYbCFMSaO9m9G/0faIHj5/dZFDMFqPTcx6UwqyOy3COEaEOg/9VsGIpdqn62W5KhoKSpg==
 
 which-module@^1.0.0:
   version "1.0.0"
@@ -8823,3 +8840,8 @@ yorkie@^2.0.0:
     is-ci "^1.0.10"
     normalize-path "^1.0.0"
     strip-indent "^2.0.0"
+
+zico@^1.5.01:
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/zico/-/zico-1.5.1.tgz#365d2ac20833c1f5ae287e569e46afc72af0244b"
+  integrity sha512-XLDWc1DwsbYaH/nCFfOTzcRGK+XzK/gBpEwG3PIlaFuOU2xxPi+6nmCgec59ZNkCMyOKW4fGIyop9WcgsmRjpQ==
